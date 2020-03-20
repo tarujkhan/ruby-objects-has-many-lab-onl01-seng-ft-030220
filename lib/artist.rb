@@ -16,7 +16,7 @@ class Artist
   
   
   def songs 
-    Song.all do each |song|
+    Song.all.select |song| song.artist
   end 
     
   
