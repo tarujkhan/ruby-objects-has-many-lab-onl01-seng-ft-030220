@@ -11,7 +11,7 @@ def artist_name
     @artist.name
   end 
 
-def song_count
+def self.song_count
   @@songs 
 end
 
