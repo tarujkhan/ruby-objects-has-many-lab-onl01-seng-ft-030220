@@ -10,6 +10,9 @@ def artist_name
   else 
     @artist.name
   end 
-  
+
+def song_count
+  @@songs 
 end
+
 end 
