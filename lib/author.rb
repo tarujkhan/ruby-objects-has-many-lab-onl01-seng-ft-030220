@@ -24,8 +24,8 @@ class Author
     end
       
     
-    def add_song_by_name(name)
-      song = Song.new(name)
+    def add_ppst_by_name(name)
+      post = post.new(name)
      add_song(song) 
     end 
     
