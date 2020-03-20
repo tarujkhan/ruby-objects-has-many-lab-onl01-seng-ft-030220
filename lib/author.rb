@@ -25,7 +25,7 @@ class Author
       
     
     def add_post_by_name(name)
-      post = post.new(name)
+      post = Post.new(name)
      add_post(post) 
     end 
     
