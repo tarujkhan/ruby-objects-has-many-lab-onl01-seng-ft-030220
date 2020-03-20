@@ -19,9 +19,7 @@ def artist_name
     @artist.name
   end 
 
-def self.song_count
-  
-end
 
+  
 end 
 end 
