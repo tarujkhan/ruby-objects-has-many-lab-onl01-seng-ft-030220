@@ -24,14 +24,14 @@ class Author
     end
       
     
-    def add_ppst_by_name(name)
+    def add_post_by_name(name)
       post = post.new(name)
-     add_song(song) 
+     add_post(post) 
     end 
     
   
-      def self.song_count
-       Song.all.count 
+      def self.post_count
+       Post.all.count 
       end 
       
      
