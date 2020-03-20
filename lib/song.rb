@@ -18,8 +18,5 @@ def artist_name
   else 
     @artist.name
   end 
-
-
-  
-end 
+  end 
 end 
