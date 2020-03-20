@@ -16,7 +16,7 @@ class Artist
   
   
   def songs 
-    self.songs do each |song|
+    self.SOng do each |song|
   end 
     
   
